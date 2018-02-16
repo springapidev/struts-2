@@ -9,14 +9,11 @@ public class HelloWorld extends ActionSupport {
 
     @Override
     public String execute() throws Exception {
-        if (userName.length() < 3) {
-            return ERROR;
-        } else {
-            setMessage(getUserName());
-            System.out.println("Username::: " + userName);
-            return SUCCESS;
-        }
-    }
+      
+        setMessage(getUserName());
+        System.out.println("Username::: "+userName);
+        return SUCCESS;
+     }
     /**
      * Field for Message property.
      */
@@ -39,7 +36,7 @@ public class HelloWorld extends ActionSupport {
     public void setMessage(String message) {
         this.message = message;
     }
-
+    
     private String userName;
 
     public String getUserName() {
@@ -49,5 +46,7 @@ public class HelloWorld extends ActionSupport {
     public void setUserName(String userName) {
         this.userName = userName;
     }
-
+    
+    
 }
+
