@@ -13,7 +13,10 @@
 
 
         <s:form method="POST" action="Bd">
-            <s:textfield name="userName"/>
+            <s:label value="Name: "/>
+            <s:textfield name="userName"/><br/>    
+            <s:label value="Password: "/> 
+            <s:textfield name="password"/>
             <s:submit value="Submit"/>
         </s:form>
     </body>
