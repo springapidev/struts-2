@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="student" namespace="/views" extends="struts-default">
+        <action name="saveStudent" method="save" class="com.coderbd.controller.StudentController">
+            <result name="success" type="redirect">listStudents</result>
+        </action>
+        <action name="listStudents" method="getStudents" class="com.coderbd.controller.StudentController">
+            <result name="success">/views/student.jsp</result>
+        </action>
+        <action name="updateStudent" method="update" class="com.coderbd.controller.StudentController">
+            <result name="success">/views/student.jsp</result>
+        </action>
+        <action name="deleteStudent" method="delete" class="com.coderbd.controller.StudentController">
+            <result name="success" type="redirect">listStudents</result>
+        </action>
+    </package>
+</struts>
+
