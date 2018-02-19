@@ -26,11 +26,7 @@ public class CommonService<E> implements CommonDao<E> {
 
    SessionFactory sessFact = HibernateUtil.getSessionFactory();
    Session session = sessFact.openSession();
-    org.hibernate.Transaction tr = session.beginTransaction();
-
-
-    
-    
+    org.hibernate.Transaction tr = session.beginTransaction();    
     protected E instance;
     private Class<E> entityClass;
 

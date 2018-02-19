@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" namespace="/views" extends="struts-default">
+        <action name="shabib"  class="com.coderbd.Login">
+            <result name="success">/views/welcome.jsp</result>
+            <result name="error">/views/error.jsp</result>
+        </action>
+        
+        <action name="registration"  class="com.coderbd.Registration" method="save">
+            <result name="success">/views/success.jsp</result>      
+            <result name="error">/views/welcome.jsp</result>          
+        </action>
+    </package>
+</struts>

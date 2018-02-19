@@ -3,10 +3,10 @@
 
 <html>  
    <head>
-      <title>Access Denied</title>
+      <title>error page</title>
    </head>
    
    <body>
-      You are not authorized to view this page.
+     error page
    </body>
 </html>

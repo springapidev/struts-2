@@ -12,7 +12,8 @@
 
                       
                 
-                <s:form method="POST" action="Bd">
+                <s:form method="GET" action="Bd">
+                    <s:label value="Name: "/>
                     <s:textfield name="userName"/>
                     <s:submit value="Submit"/>
                 </s:form>

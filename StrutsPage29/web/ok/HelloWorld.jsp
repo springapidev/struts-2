@@ -8,11 +8,7 @@
     </head>
 
     <body>
-        <h2><s:property value="message"/></h2>
-
-
-
-        <s:form method="POST" action="Bd">
+             <s:form method="POST" action="Bd">
             <s:textfield name="userName"/>
             <s:submit value="Submit"/>
         </s:form>

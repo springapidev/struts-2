@@ -10,6 +10,7 @@ public class HelloWorld extends ActionSupport {
     @Override
     public String execute() throws Exception {
         setMessage(getUserName());
+        System.out.println("username:::: "+userName);
         return SUCCESS;
     }
     /**
