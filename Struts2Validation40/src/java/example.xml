@@ -6,9 +6,8 @@
 
 <struts>
     <package name="example" namespace="/example" extends="struts-default">
-       <action name="register" class="example.RegisterAction">  
-             <result>/example/welcome.jsp</result>  
-<result name="input">/example/index.jsp</result>  
+        <action name="register" class="example.RegisterAction">  
+            <result name="input">/example/index.jsp</result>  
         </action>
     </package>
 </struts>

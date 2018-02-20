@@ -20,7 +20,7 @@ public class RedirectAction extends ActionSupport implements ServletRequestAware
     @Override
     public String execute() throws Exception {
         request.setAttribute("id", "10001");
-        request.setAttribute("name", "Shamim Atik");
+        request.setAttribute("dept", "Software");
         return SUCCESS;
     }
     

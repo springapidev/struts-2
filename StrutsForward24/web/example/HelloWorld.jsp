@@ -9,6 +9,7 @@
 
     <body>
         <s:a href="example/bd.action"> Click here  </s:a>
+        <s:a action="bd"> Click here BD  </s:a>
     </body>
 </html>
 

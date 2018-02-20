@@ -36,7 +36,6 @@ public class RegisterAction extends ActionSupport {
         this.password = password;
     }
 
-//getters and setters  
     @Override
     public String execute() {
 //perform business logic here  

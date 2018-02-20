@@ -10,7 +10,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class HelloWorld extends ActionSupport implements ServletRequestAware {
 
     HttpServletRequest request;
-    String message;
+    String message;   
 
     @Override
     public void setServletRequest(HttpServletRequest request) {
@@ -23,6 +23,7 @@ public class HelloWorld extends ActionSupport implements ServletRequestAware {
         setMessage("Welcome to Redirect Result in Struts2");
         request.setAttribute("name", "Reza");
         request.setAttribute("city", "Dhaka");
+        
         return SUCCESS;
     }
 

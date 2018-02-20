@@ -3,14 +3,14 @@
 
 <html>
     <head>
-        <title><s:text name="HelloWorld.message"/></title>
+        <title>Validation</title>
     </head>
 
     <body>
         <s:form action="register">  
             <s:textfield name="name" label="Name"></s:textfield>  
             <s:password name="password" label="Password"></s:password>  
-            <s:submit value="register"></s:submit>  
+            <s:submit value="Register"></s:submit>  
         </s:form>  
     </body>
 </html>
