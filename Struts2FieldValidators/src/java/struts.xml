@@ -5,7 +5,7 @@
 <struts>
     <package name="a" namespace="/" extends="struts-default">
 
-        <action name="register" class="mypack.Register">
+        <action name="register" class="com.coderbd.Register">
         
             <result name="success">/welcome.jsp</result>
             <result name="input">/index.jsp</result>
