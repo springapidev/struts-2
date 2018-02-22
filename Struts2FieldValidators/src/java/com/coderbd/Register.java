@@ -1,10 +1,8 @@
 package com.coderbd;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.opensymphony.xwork2.validator.annotations.DateRangeFieldValidator;
 import com.opensymphony.xwork2.validator.annotations.EmailValidator;
 import com.opensymphony.xwork2.validator.annotations.RequiredStringValidator;
-import java.util.Date;
 
 public class Register extends ActionSupport {
 

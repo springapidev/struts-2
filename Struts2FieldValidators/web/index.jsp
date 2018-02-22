@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <d:head/>  
+ 
 </head>
 <body>
     <h1>Registration Form.............</h1>
