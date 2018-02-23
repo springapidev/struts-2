@@ -29,7 +29,8 @@
 		<td><b>Genre</b></td>
 	</tr>
 	<s:iterator value="songs" status="songStatus">
-		<tr class="<s:if test="#songStatus.odd == true ">odd</s:if><s:else>even</s:else>">
+		<tr class="<s:if test="#songStatus.odd == true ">odd</s:if>
+                    <s:else>even</s:else>">
 			<td><s:property value="title" /></td>
 			<td><s:property value="genre" /></td>
 		</tr>
